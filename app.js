@@ -1,7 +1,15 @@
 function sayHello(name) {
-  console.log("Hello " + name);
+  return "Hello " + name;
 }
+const title = document.querySelector(".title h1");
 
-sayHello("Bo Hyeon Cha");
-console.log("hi");
+console.log(title);
+
+
+title.textContent = "Hello"
+
+console.log(title);
+
+
+console.log(sayHello("Bo Hyeon Cha"));
 alert("Hi");
