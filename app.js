@@ -1,15 +1,7 @@
-function sayHello(name) {
-  return "Hello " + name;
+const h1 = document.querySelector("div.title:first-child h1");
+
+function handleClick(){
+  h1.classList.toggle("clicked");
 }
-const title = document.querySelector(".title h1");
 
-console.log(title);
-
-
-title.textContent = "Hello"
-
-console.log(title);
-
-
-console.log(sayHello("Bo Hyeon Cha"));
-alert("Hi");
+h1.addEventListener("click", handleClick);
