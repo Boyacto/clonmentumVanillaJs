@@ -42,7 +42,7 @@ const author = document.querySelector("#quote span:last-child");
 
 
 
-function ramdomQuoute(){
+function ramdomQuote(){
     const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
     quote.innerText = todaysQuote.quote;
     author.innerText = todaysQuote.quote;
