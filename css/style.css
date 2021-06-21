@@ -1,14 +1,3 @@
 .hidden {
     display: none; 
 }
-.wrapper {
-    height: 500px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.box {
-    background-color: green;
-    height: 100px;
-    width: 500px;
-}
